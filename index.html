@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chic Skin Aesthetics - Professional Skincare Services</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="Chic Skin Aesthetics">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="book-btn"><a href="#booking">Book Appointment</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Chic Skin Aesthetics</h1>
+            <p>Experience luxury skincare treatments tailored to your needs</p>
+            <a href="#booking" class="cta-button">Book Your Treatment</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="images/first-time-visit.jpg" alt="First Time Visit">
+                <h3>First Time Visit</h3>
+                <p>Includes consultation, skin analysis, and our Signature Facial with comprehensive care.</p>
+                <a href="#booking" class="book-service">Book Now</a>
+            </div>
+            <div class="service-card">
+                <img src="images/signature-facial.jpg" alt="Chic Signature Facial">
+                <h3>Chic Signature Facial</h3>
+                <p>A comprehensive skincare experience with deep-cleansing, exfoliation, and more.</p>
+                <a href="#booking" class="book-service">Book Now</a>
+            </div>
+            <div class="service-card">
+                <img src="images/customized-facial.jpg" alt="Customized Facial">
+                <h3>Customized Facial</h3>
+                <p>Personalized treatment with additional options for enhanced results.</p>
+                <a href="#booking" class="book-service">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <h2>Book Your Appointment</h2>
+        <div class="booking-form">
+            <form id="appointment-form">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Full Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" required>
+                    <label for="phone">Phone Number</label>
+                </div>
+                <div class="form-group">
+                    <select id="service" required>
+                        <option value=""></option>
+                        <option value="first-time">First Time Visit</option>
+                        <option value="signature">Chic Signature Facial</option>
+                        <option value="customized">Customized Facial</option>
+                    </select>
+                    <label for="service">Select Service</label>
+                </div>
+                <div class="form-group">
+                    <input type="datetime-local" id="datetime" required>
+                    <label for="datetime">Pick Date & Time</label>
+                </div>
+                <button type="submit" class="submit-btn">Book Appointment</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <h2>Where to Find Us</h2>
+        <div class="location-container">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.8079861872407!2d38.791752375076996!3d8.989809191069973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8581bb1b14fd%3A0x1553c811683c0d62!2sChic%20cosmetics!5e0!3m2!1sen!2sus!4v1742833042156!5m2!1sen!2sus" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            </div>
+            <div class="location-info">
+                <h3>Visit Our Salon</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Bole Dildy Beauty Lane, Suite 100</p>
+                <p><i class="fas fa-phone"></i> +251 92 910 8876</p>
+                <p><i class="fas fa-envelope"></i> chic.skin.aesthetics@gmail.com</p>
+                <div class="business-hours">
+                    <h4>Business Hours</h4>
+                    <p><i class="far fa-clock"></i> Monday - Friday: 9am - 7pm</p>
+                    <p><i class="far fa-clock"></i> Saturday: 10am - 5pm</p>
+                    <p><i class="far fa-clock"></i> Sunday: Closed</p>
+                </div>
+                <a href="https://maps.app.goo.gl/sFKgELoxDg4DuKG58" target="_blank" class="directions-btn">
+                    Get Directions
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Phone: +251 92 910 8876</p>
+                <p>Email: chic.skin.aesthetics@gmail.com</p>
+                <p>Address: Bole Dildy Beauty Lane, Suite 100</p>
+            </div>
+            <div class="footer-section">
+                <h4>Hours</h4>
+                <p>Monday - Friday: 9am - 7pm</p>
+                <p>Saturday: 10am - 5pm</p>
+                <p>Sunday: Closed</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Chic Skin Aesthetics. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
